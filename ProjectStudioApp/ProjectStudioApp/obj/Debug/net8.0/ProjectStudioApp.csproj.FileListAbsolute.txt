@@ -60,3 +60,37 @@ C:\Users\hp\Documents\DDWT\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\
 C:\Users\hp\Documents\DDWT\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.pdb
 C:\Users\hp\Documents\DDWT\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.genruntimeconfig.cache
 C:\Users\hp\Documents\DDWT\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ref\ProjectStudioApp.dll
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\appsettings.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\ProjectStudioApp.staticwebassets.runtime.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\ProjectStudioApp.staticwebassets.endpoints.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\ProjectStudioApp.exe
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\ProjectStudioApp.deps.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\ProjectStudioApp.runtimeconfig.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\ProjectStudioApp.dll
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\bin\Debug\net8.0\ProjectStudioApp.pdb
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.AssemblyInfoInputs.cache
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.AssemblyInfo.cs
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.csproj.CoreCompileInputs.cache
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.RazorAssemblyInfo.cache
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.RazorAssemblyInfo.cs
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.sourcelink.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\scopedcss\bundle\ProjectStudioApp.styles.css
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\scopedcss\projectbundle\ProjectStudioApp.bundle.scp.css
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.dll
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\refint\ProjectStudioApp.dll
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.pdb
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ProjectStudioApp.genruntimeconfig.cache
+C:\Users\Kevim Emuq\Desktop\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\obj\Debug\net8.0\ref\ProjectStudioApp.dll
