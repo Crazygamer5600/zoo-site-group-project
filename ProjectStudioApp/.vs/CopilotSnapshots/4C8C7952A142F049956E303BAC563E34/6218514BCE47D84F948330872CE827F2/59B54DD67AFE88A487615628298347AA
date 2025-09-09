@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ProjectStudioApp.Models.Animal>
+@* Render animal cards in Bootstrap grid *@
+@foreach (var animal in Model)
+{
+    <div class="col-md-4">
+        <div class="feature-card">
+            <img src="@(animal.AnimalPhoto ?? "https://via.placeholder.com/250x250?text=No+Image")" class="animal-img mb-2" alt="@animal.Name" />
+            <h5>@animal.Name</h5>
+            <div>@animal.Species</div>
+            <div class="small text-muted">@animal.Category</div>
+            <div class="mt-2">@animal.Description</div>
+        </div>
+    </div>
+}

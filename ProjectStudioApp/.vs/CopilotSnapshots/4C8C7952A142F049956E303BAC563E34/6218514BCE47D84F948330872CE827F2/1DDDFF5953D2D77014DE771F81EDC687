@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoolirante Zoo - Experience Wildlife Wonder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Default orange buttons */
+        .nav-pills .nav-link {
+            background-color: #EA640E; /* orange */
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+            /* Active tab = grey */
+            .nav-pills .nav-link.active {
+                background-color: #808080 !important; /* grey */
+                color: white;
+            }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fef6e4 0%, #f8f4e6 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .zoo-section {
+            display: none;
+        }
+
+            .zoo-section.active {
+                display: block;
+            }
+
+        .hero-img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,.1);
+            transition: transform .4s ease;
+        }
+
+            .hero-img:hover {
+                transform: scale(1.05);
+            }
+
+        .feature-card {
+            border-radius: 15px;
+            padding: 24px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,.1);
+            background: white;
+            transition: transform .2s ease;
+        }
+
+            .feature-card:hover {
+                transform: translateY(-8px);
+            }
+
+        .btn-zoo {
+            background: #ff8c42;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            padding: .7rem 1.5rem;
+        }
+
+            .btn-zoo:hover {
+                background: #ff7028;
+                color: #fff;
+            }
+
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ff8c42;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== Orange Nav Pills ===== -->
+    <!-- ===== Orange Nav Pills ===== -->
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small rounded-5 shadow-sm"
+        id="pillNav2" role="tablist"
+        style="background-color:#D9B99B;">
+
+        <li class="nav-item">
+            <button class="nav-link active rounded-5" onclick="showSection('home', this)">Home</button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link rounded-5" onclick="showSection('animals', this)">Animal Showcase</button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link rounded-5" onclick="showSection('events', this)">Upcoming Event</button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link rounded-5" onclick="showSection('tickets', this)">Ticket Reservation</button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link rounded-5" onclick="showSection('merchandise', this)">Merchandise</button>
+        </li>
+    </ul>
+
+
+    <!-- ===== HOME ===== -->
+    <section id="home" class="zoo-section active container mt-4">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-6"><img class="hero-img" src="https://images.unsplash.com/photo-1534567153574-2b12153a87f0?w=1200" alt="Lion"></div>
+            <div class="col-lg-6">
+                <h1 style="color:#d2691e;">Welcome to Zoolirante Zoo</h1>
+                <p>Experience the wonder of wildlife in the heart of Australia. Discover over 200 amazing species in our conservation facility.</p>
+                <button class="btn btn-zoo me-2" onclick="showSection('tickets', document.querySelector('#pillNav2 button:nth-child(4)'))">Book Your Visit</button>
+                <button class="btn btn-outline-secondary" onclick="showSection('animals', document.querySelector('#pillNav2 button:nth-child(2)'))">Meet Our Animals</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ANIMALS ===== -->
+    <style>
+        .animal-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+    </style>
+
+    <section id="animals" class="zoo-section container mt-4">
+        <h2 style="color:#d2691e;">Our Amazing Animals</h2>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=800" class="animal-img mb-2">
+                    <h5>African Lion</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1617910879258-2aff8026515d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="animal-img mb-2">
+                    <h5>Pandas</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1547970810-dc1eac37d174?w=800 " class="animal-img mb-2">
+                    <h5>Rhinosaurus</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="animal-img mb-2">
+                    <h5>Bengal Tiger</h5>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1544985361-b420d7a77043?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="animal-img mb-2">
+                    <h5>Amur Leopard</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1649135527382-0d9e61377fa1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="animal-img mb-2">
+                    <h5>Koala</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== EVENTS ===== -->
+    <section id="events" class="zoo-section container mt-4">
+        <h2 style="color:#d2691e;">Upcoming Events</h2>
+        <div class="card mb-2 p-3"><strong>15 SEP</strong> – Safari Parade 🦁🦒🦓</div>
+        <div class="card mb-2 p-3"><strong>22 SEP</strong> – Penguin Feeding 🐧🦭</div>
+        <div class="card mb-2 p-3"><strong>29 SEP</strong> – Koala Encounter 🐨🦘</div>
+    </section>
+
+    <!-- ===== TICKETS ===== -->
+    <section id="tickets" class="zoo-section container mt-4">
+        <h2 style="color:#d2691e;">Ticket Reservation</h2>
+        <div class="row g-3">
+            <div class="col-md-4"><div class="feature-card"><h5>Adult Ticket</h5><div class="price">$45 <small>/person</small></div></div></div>
+            <div class="col-md-4"><div class="feature-card"><h5>Child Ticket</h5><div class="price">$25 <small>/person</small></div></div></div>
+            <div class="col-md-4"><div class="feature-card"><h5>Family Pass</h5><div class="price">$120 <small>/family</small></div></div></div>
+        </div>
+    </section>
+
+    <!-- ===== MERCH ===== -->
+    <style>
+        .merch-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+    </style>
+
+    <section id="merchandise" class="zoo-section container mt-4">
+        <h2 style="color:#d2691e;">Zoo Merchandise</h2>
+
+        <div class="row g-3">
+            <!-- 👈 Added row wrapper -->
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1571280849511-d35b88c7408f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0"
+                         class="merch-img mb-2" alt="Lion Plush Toy">
+                    <h6>Lion Plush Toy</h6>
+                    <div class="price">$29.99</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1722100466194-3896a8ad0279?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0"
+                         class="merch-img mb-2" alt="Wildlife Figurine Sets">
+                    <h6>Wildlife Figurine Sets</h6>
+                    <div class="price">$39.99</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1695604460161-cad706bb68fe?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                         class="merch-img mb-2" alt="Zoo Cap">
+                    <h6>Zoolirante Cap</h6>
+                    <div class="price">$19.99</div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1673514503545-1ca1193e4094?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                         class="merch-img mb-2" alt="Animal Info Cards">
+                    <h6>Zoo Explorer Coloring Book</h6>
+                    <div class="price">$14.99</div>
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark text-light mt-5 pt-5 pb-3">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Logo -->
+                <div class="col-md-3 mb-4">
+                    <h4 style="font-weight:bold;">Zoolirante</h4>
+                    <p>Experience Wildlife Wonder</p>
+                </div>
+
+                <!-- Links -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">About</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Our Zoo</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Education</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Conservation</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">Contact</h6>
+                    <ul class="list-unstyled">
+                        <li>Email: info@zoolirante.com</li>
+                        <li>Phone: +61 2 1234 5678</li>
+                        <li>Address: 123 Zoo Rd, Sydney</li>
+                    </ul>
+                </div>
+
+                <!-- Social -->
+                <div class="col-md-3 mb-4 text-center">
+                    <h6 class="fw-bold">Follow Us</h6>
+                    <a href="https://facebook.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" width="20" alt="Facebook">
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle me-2 p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" alt="Instagram">
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
+                        <img src="https://images.freeimages.com/image/large-previews/f35/x-twitter-logo-on-black-circle-5694247.png?h=350" width="20" alt="Twitter / X">
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="20" alt="YouTube">
+                    </a>
+                </div>
+
+
+                <hr class="border-light">
+
+                <div class="text-center small">
+                    © 2025 Zoolirante Zoo. All rights reserved.
+                </div>
+            </div>
+    </footer>
+
+
+
+    <script>
+        function showSection(id, btn) {
+            document.querySelectorAll('.zoo-section').forEach(s => s.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+            document.querySelectorAll('#pillNav2 .nav-link').forEach(n => n.classList.remove('active'));
+            btn.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
