@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "CiQtStjHQ1I=",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Documents\\DDWT\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
+=======
+  "dgSpecHash": "i31NAlHJK6s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
+>>>>>>> d085c62d1ed35006e3f61ae692c6c724c2df8e09
   "expectedPackageFiles": [],
   "logs": []
 }
