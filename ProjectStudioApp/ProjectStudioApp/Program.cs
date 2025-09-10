@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddDbContext<ZooliranteDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("AmazonOrdersContext")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ZooliranteContext")));
 
 var app = builder.Build();
 
