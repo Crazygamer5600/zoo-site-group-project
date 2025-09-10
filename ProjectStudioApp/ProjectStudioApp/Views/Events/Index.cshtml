@@ -1,0 +1,17 @@
+﻿@model IEnumerable<ProjectStudioApp.Models.Event>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- ===== EVENTS ===== -->
+<section id="events" class="zoo-section container mt-4">
+    <h2 style="color:#d2691e;">Upcoming Events</h2>
+    @foreach (var eventItem in Model)
+    {
+        <div class="card mb-2 p-3">
+            <strong>@eventItem.EventStart.ToString("dd MMM")</strong> – @eventItem.EventName
+        </div>
+	}
+    
+</section>

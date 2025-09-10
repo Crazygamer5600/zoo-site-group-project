@@ -7751,23 +7751,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\asus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\UNI_FILES\\Project Studio\\Project Studio App\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
       "projectName": "ProjectStudioApp",
-      "projectPath": "D:\\github\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\obj\\",
+      "projectPath": "C:\\Users\\asus\\Desktop\\UNI_FILES\\Project Studio\\Project Studio App\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
+      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\UNI_FILES\\Project Studio\\Project Studio App\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7840,7 +7840,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
