@@ -4,14 +4,14 @@
 
 <section class="container mt-4">
     <div class="row g-4 align-items-center">
-        <div class="col-lg-6">
-            <img class="hero-img" src="https://images.unsplash.com/photo-1534567153574-2b12153a87f0?w=1200" alt="Lion">
-        </div>
-        <div class="col-lg-6">
+        <div class="col-12">
             <h1 style="color:#d2691e;">Welcome to Zoolirante Zoo</h1>
             <p>Experience the wonder of wildlife in the heart of Australia. Discover over 200 amazing species in our conservation facility.</p>
-            <a class="btn btn-zoo me-2" asp-controller="Tickets" asp-action="Index">Book Your Visit</a>
+            <a class="btn btn-zoo me-2" asp-controller="Bookings" asp-action="Index">Book Your Visit</a>
             <a class="btn btn-outline-secondary" asp-controller="Animals" asp-action="Index">Meet Our Animals</a>
+        </div>
+        <div class="col-12">
+            <img class="hero-img img-fluid" src="https://images.unsplash.com/photo-1534567153574-2b12153a87f0?w=1200" alt="Lion">
         </div>
     </div>
 </section>

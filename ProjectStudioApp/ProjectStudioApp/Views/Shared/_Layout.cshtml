@@ -1,16 +1,20 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Zoolirante Zoo</title>
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProjectStudioApp.styles.css" asp-append-version="true" />
 
+
     <style>
+
         /* Shared nav pill design */
         .nav-pills .nav-link {
             background-color: #EA640E;
@@ -25,7 +29,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #fef6e4 0%, #f8f4e6 100%);
+            background: linear-gradient(135deg, #FFDAB9 0%, #f8f4e6 100%);
             color: #333;
             line-height: 1.6;
         }
@@ -61,15 +65,31 @@
             font-weight: bold;
             color: #ff8c42;
         }
+
+        .figure-img {
+            width: 100px; /* same width you set */
+            height: 38px; /* slightly shorter than image */
+            overflow: hidden; /* hide top/bottom overflow */
+            border-radius: 0.5rem; /* keeps your rounded corners */
+        }
+
+            .figure-img img {
+                width: 100%;
+                height: auto;
+                margin-top: -100px; /* trim top */
+                margin-bottom: -123px; /* trim bottom */
+            }
     </style>
 </head>
 <body>
     <!-- ===== Navbar ===== -->
     <ul class="nav nav-pills nav-fill gap-2 p-1 small rounded-5 shadow-sm"
         style="background-color:#D9B99B;">
-        <li class="nav-item">
-            <a class="nav-link rounded-5 @(ViewData["Title"]?.ToString() == "Home" ? "active" : "")"
-               asp-controller="Home" asp-action="Index">Home</a>
+
+        <li class="figure-img rounded-3">
+            
+            <a class=" @(ViewData["Title"]?.ToString() == "Home" ? "active" : "")"
+               asp-controller="Home" asp-action="Index"><img src="https://lo.unisa.edu.au/pluginfile.php/5037007/mod_label/intro/image.png" alt="Figure" width="100"></a>
         </li>
         <li class="nav-item">
             <a class="nav-link rounded-5 @(ViewData["Title"]?.ToString() == "Animal Showcase" ? "active" : "")"
@@ -86,9 +106,16 @@
         </li>
     </ul>
 
-    <!-- ===== Page Content ===== -->
+    <!-- ===== Page Content and Background Colour ===== -->
+
     <div class="container mt-4">
+
         <main role="main" class="pb-3">
+            <style>
+                body {
+                    background-color: #EA640E; /* Orange */
+                }
+            </style>
             @RenderBody()
         </main>
     </div>
@@ -121,20 +148,20 @@
                     <h6 class="fw-bold">Follow Us</h6>
                     <!-- social icons... -->
                     <!-- Social -->
-                    
-                        <a href="https://facebook.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" width="20" alt="Facebook">
-                        </a>
-                        <a href="https://instagram.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle me-2 p-2">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" alt="Instagram">
-                        </a>
-                        <a href="https://twitter.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
-                            <img src="https://images.freeimages.com/image/large-previews/f35/x-twitter-logo-on-black-circle-5694247.png?h=350" width="20" alt="Twitter / X">
-                        </a>
-                        <a href="https://youtube.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle p-2">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="20" alt="YouTube">
-                        </a>
-  
+
+                    <a href="https://facebook.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" width="20" alt="Facebook">
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle me-2 p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" alt="Instagram">
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
+                        <img src="https://images.freeimages.com/image/large-previews/f35/x-twitter-logo-on-black-circle-5694247.png?h=350" width="20" alt="Twitter / X">
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="20" alt="YouTube">
+                    </a>
+
                 </div>
                 <hr class="border-light">
                 <div class="text-center small">

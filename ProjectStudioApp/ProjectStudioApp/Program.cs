@@ -1,5 +1,5 @@
-using ProjectStudioApp.Models;
 using Microsoft.EntityFrameworkCore;
+using ProjectStudioApp.Datafile;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddDbContext<ZooliranteDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("AmazonOrdersContext")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ZooliranteDbContext")));
 
 var app = builder.Build();
 
