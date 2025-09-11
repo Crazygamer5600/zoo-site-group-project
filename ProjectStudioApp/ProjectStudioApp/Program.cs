@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddDbContext<ZooliranteDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ZooliranteContext")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ZooliranteDbContext")));
 
 var app = builder.Build();
 
