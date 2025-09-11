@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using ProjectStudioApp.Models;
 
-namespace ProjectStudioApp.Models;
+namespace ProjectStudioApp.Datafile;
 
 public partial class ZooliranteDbContext : DbContext
 {

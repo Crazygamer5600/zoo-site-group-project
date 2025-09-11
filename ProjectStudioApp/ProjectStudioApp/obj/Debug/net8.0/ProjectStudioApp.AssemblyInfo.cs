@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectStudioApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53c8b4d3b61212316d7f9ca5f106d4220442f994")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04ec84f6e8c17e578c7efbc81c6bd801221e9fce")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectStudioApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectStudioApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

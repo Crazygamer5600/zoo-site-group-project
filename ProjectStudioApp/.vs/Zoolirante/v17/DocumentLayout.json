@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\datafile\\zoolirantedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\datafile\\zoolirantedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\projectstudioapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\projectstudioapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\orion\\onedrive - navitas limited\\documents\\github\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,21 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 357,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProjectStudioApp",
-              "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\ProjectStudioApp.csproj",
-              "ToolTip": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
-              "RelativeToolTip": "ProjectStudioApp\\ProjectStudioApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-11T01:18:38.585Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -76,12 +67,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ZooliranteDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Datafile\\ZooliranteDbContext.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Datafile\\ZooliranteDbContext.cs",
+              "ToolTip": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Datafile\\ZooliranteDbContext.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Datafile\\ZooliranteDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T03:41:38.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Program.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Program.cs",
               "ToolTip": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Program.cs",
               "RelativeToolTip": "ProjectStudioApp\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAABQAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T07:28:39.791Z",
               "EditorCaption": ""
@@ -89,19 +93,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
-              "RelativeToolTip": "ProjectStudioApp\\appsettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-10T07:25:23.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\_ViewStart.cshtml",
@@ -114,7 +105,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
+              "RelativeToolTip": "ProjectStudioApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-10T07:25:23.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectStudioApp.csproj",
+              "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\ProjectStudioApp.csproj",
+              "ToolTip": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
+              "RelativeToolTip": "ProjectStudioApp\\ProjectStudioApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-11T01:18:38.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\_ViewImports.cshtml",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
@@ -140,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ProjectStudioApp\\appsettings.Development.json",
@@ -153,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -166,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\HomeController.cs",
@@ -179,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\orion\\OneDrive - Navitas Limited\\Documents\\GitHub\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Index.cshtml",
