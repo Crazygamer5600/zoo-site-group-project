@@ -1,1 +1,98 @@
-﻿
+﻿@{
+    ViewData["Title"] = "Membership";
+}
+
+<section class="container mt-4">
+    <h2 style="color:#d2691e;">Membership Tiers</h2>
+    <p class="text-muted">Pick a plan that fits your visit style.</p>
+
+    <div class="row g-3">
+        <!-- Silver -->
+        <div class="col-md-4">
+            <div class="feature-card h-100">
+                <h4>Silver</h4>
+                <div class="price mb-2">$8 / month</div>
+                <ul class="text-start">
+                    <li>Free entry 1×/month</li>
+                    <li>10% off merchandise</li>
+                    <li>Monthly newsletter</li>
+                </ul>
+                <button class="btn btn-zoo btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#membershipTermsModal">
+                    Join Silver
+                </button>
+            </div>
+        </div>
+        <!-- Gold -->
+        <div class="col-md-4">
+            <div class="feature-card h-100">
+                <h4>Gold</h4>
+                <div class="price mb-2">$15 / month</div>
+                <ul class="text-start">
+                    <li>Free entry 3×/month</li>
+                    <li>15% off merchandise</li>
+                    <li>Priority event alerts</li>
+                </ul>
+                <button class="btn btn-zoo btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#membershipTermsModal">
+                    Join Gold
+                </button>
+            </div>
+        </div>
+        <!-- Platinum -->
+        <div class="col-md-4">
+            <div class="feature-card h-100">
+                <h4>Platinum</h4>
+                <div class="price mb-2">$25 / month</div>
+                <ul class="text-start">
+                    <li>Unlimited entry</li>
+                    <li>20% off merchandise</li>
+                    <li>Behind-the-scenes tour 1×/year</li>
+                </ul>
+                <button class="btn btn-zoo btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#membershipTermsModal">
+                    Join Platinum
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <small class="text-muted">By joining, you agree to the <a asp-controller="Home" asp-action="Terms">Membership Terms</a> and our <a asp-controller="Home" asp-action="Privacy">Privacy Policy</a>.</small>
+    </div>
+</section>
+
+<!-- Membership Terms Modal -->
+<div class="modal fade" id="membershipTermsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Membership Terms</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-2"><strong>Summary</strong></p>
+                <ul>
+                    <li>Auto-renews monthly; cancel anytime.</li>
+                    <li>Perks are non-transferable and subject to zoo policies.</li>
+                    <li>Event access may require advance booking.</li>
+                </ul>
+                <p class="mb-0">See the full <a asp-controller="Home" asp-action="Terms">Membership Terms</a> for details.</p>
+            </div>
+            <div class="modal-footer">
+                <div class="form-check me-auto">
+                    <input class="form-check-input" type="checkbox" id="agreeTermsCheck">
+                    <label class="form-check-label" for="agreeTermsCheck">I agree to the terms</label>
+                </div>
+                <button type="button" class="btn btn-zoo btn-sm" disabled id="confirmJoinBtn" data-bs-dismiss="modal">Confirm Join</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const agree = document.getElementById('agreeTermsCheck');
+        const confirmBtn = document.getElementById('confirmJoinBtn');
+        agree?.addEventListener('change', () => { confirmBtn.disabled = !agree.checked; });
+    </script>
+}
+
+
