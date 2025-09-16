@@ -33,7 +33,12 @@ namespace ProjectStudioApp.Controllers
 
         public IActionResult OurZoo()
         {
-            return View(); // Looks for a view file: Views/Home/OurZoo.cshtml
+            return View();
         }
+        public IActionResult Conservation()
+        {
+            return View();
+        }
+
     }
 }
