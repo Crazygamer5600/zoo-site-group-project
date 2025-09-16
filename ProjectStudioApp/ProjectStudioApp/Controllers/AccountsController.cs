@@ -24,23 +24,27 @@ namespace ProjectStudioApp.Controllers
         {
             IQueryable<Account> Login = _context.Accounts;
 
-            if (Email != null)
+            if (!string.IsNullOrEmpty(Email))
             {
                 var emailMatch = await _context.Accounts.FirstOrDefaultAsync(a => a.Email == Email);
 
                 if (emailMatch != null)
                 {
+                    // Set the static variable only if a valid account is found
+                    LoggedInUser.Email = emailMatch.Email;
+
                     Login = Login.Where(i => i.Email == Email);
                     return View(await Login.ToListAsync());
                 }
 
-                // Email not found
+                // Email not found → keep LoggedInUser.Email as null
                 return View(null);
             }
 
-            // No email provided
+            // No email provided → still null
             return View(null);
         }
+
 
         // GET: Accounts/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -170,5 +174,6 @@ namespace ProjectStudioApp.Controllers
         {
             return _context.Accounts.Any(e => e.AccountId == id);
         }
+
     }
 }
