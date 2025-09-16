@@ -1,7 +1,635 @@
-﻿@model IEnumerable<ProjectStudioApp.Models.Account>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Zoolirante Zoo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #FFA500; 
+            --light: #f8f9fa;
+            --dark: #343a40; 
+        }
 
-@{
-    ViewData["Title"] = "Index";
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #d2691e; 
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+        }
 
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
 
+        .page-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            background-image: url('https://www.zoologistics.com/wp-content/uploads/2019/01/z-hero-slider.jpg'); 
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+            .page-header::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0,0,0,0.4); 
+                z-index: 1;
+            }
+
+            .page-header .container {
+                position: relative;
+                z-index: 2;
+            }
+
+            .page-header h1 {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+
+            .page-header p {
+                font-size: 1.2rem;
+                max-width: 700px;
+                margin: 0 auto;
+            }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white !important;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+            .cta-button:hover {
+                background-color: #e69500; 
+                transform: translateY(-2px);
+                text-decoration: none;
+            }
+
+        .membership-tiers {
+            margin: 4rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 3rem;
+            font-weight: 700;
+        }
+
+        .tiers-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .tier-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            transition: transform 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .tier-card:hover {
+                transform: translateY(-10px);
+            }
+
+        .tier-header {
+            padding: 1.5rem;
+            text-align: center;
+            color: white;
+            background-color: var(--primary);
+            background-image: none;
+        }
+
+        .bronze .tier-header {
+            background: linear-gradient(to right, #cd7f32, #b56a2a);
+        }
+
+        .silver .tier-header {
+            background: linear-gradient(to right, #c0c0c0, #a8a8a8);
+        }
+
+        .gold .tier-header {
+            background: linear-gradient(to right, #ffd700, #e6c200);
+        }
+
+        .platinum .tier-header {
+            background: linear-gradient(to right, #e5e4e2, #c9c8c6);
+            color: var(--dark);
+        }
+
+        .tier-name {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .tier-price {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+            .tier-price .period {
+                font-size: 1rem;
+                font-weight: 400;
+            }
+
+        .tier-features {
+            padding: 1.5rem;
+            flex-grow: 1;
+        }
+
+            .tier-features ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 1.5rem;
+            }
+
+            .tier-features li {
+                margin-bottom: 0.8rem;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            .tier-features i {
+                color: var(--primary);
+                margin-right: 0.8rem;
+                margin-top: 0.2rem;
+                flex-shrink: 0;
+            }
+
+        .tier-cta {
+            padding: 0 1.5rem 1.5rem;
+            margin-top: auto;
+        }
+
+            .tier-cta .cta-button {
+                width: 100%;
+                text-align: center;
+                padding: 12px 20px;
+            }
+
+        .benefits-section {
+            padding: 4rem 1rem;
+            margin: 4rem 0;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .benefit-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .benefit-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .benefit-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+            .benefit-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease;
+            }
+
+        .benefit-card:hover .benefit-image img {
+            transform: scale(1.1);
+        }
+
+        .benefit-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+        }
+
+            .benefit-content h3 {
+                color: var(--primary);
+                margin-bottom: 1rem;
+                font-weight: 700;
+            }
+
+        .testimonials {
+            margin: 4rem 0;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+
+            .author-avatar img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .author-info h4 {
+            margin-bottom: 0.2rem;
+            font-weight: 700;
+        }
+
+        .author-info p {
+            color: #666;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .faq-section {
+            padding: 4rem 1rem;
+            margin: 4rem 0;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            transition: color 0.3s ease;
+            background-color: white; 
+        }
+
+            .faq-question:hover {
+                color: var(--primary);
+            }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+            padding: 0 1.5rem;
+            background-color: white; 
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            padding-bottom: 1.5rem;
+        }
+
+        .faq-question i {
+            transition: transform 0.3s ease;
+            color: var(--primary);
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Become a Zoolirante Member</h1>
+            <p>Join our community of wildlife enthusiasts and enjoy exclusive benefits while supporting animal conservation efforts.</p>
+        </div>
+    </section>
+
+    <section class="membership-tiers" id="membership-tiers">
+        <div class="container">
+            <h2 class="section-title">Membership Tiers</h2>
+            <div class="tiers-container">
+                <div class="tier-card bronze">
+                    <div class="tier-header">
+                        <h3 class="tier-name">Individual</h3>
+                        <div class="tier-price">$199<span class="period">/year</span></div>
+                    </div>
+                    <div class="tier-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited zoo admission for 1 person</li>
+                            <li><i class="fas fa-check"></i> 10% discount on food & merchandise</li>
+                            <li><i class="fas fa-check"></i> Free standard parking</li>
+                            <li><i class="fas fa-check"></i> Subscription to Zoo Times magazine</li>
+                            <li><i class="fas fa-check"></i> Invitations to member-only events</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        <a href="#" class="cta-button">Select Individual</a>
+                    </div>
+                </div>
+
+                <div class="tier-card silver">
+                    <div class="tier-header">
+                        <h3 class="tier-name">Family</h3>
+                        <div class="tier-price">$359<span class="period">/year</span></div>
+                    </div>
+                    <div class="tier-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited zoo admission for 2 adults & up to 4 children</li>
+                            <li><i class="fas fa-check"></i> 15% discount on food & merchandise</li>
+                            <li><i class="fas fa-check"></i> Free premium parking</li>
+                            <li><i class="fas fa-check"></i> 2 guest passes per year</li>
+                            <li><i class="fas fa-check"></i> Early access to special exhibits</li>
+                            <li><i class="fas fa-check"></i> Subscription to Zoo Times magazine</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        <a href="#" class="cta-button">Select Family</a>
+                    </div>
+                </div>
+
+                <div class="tier-card gold">
+                    <div class="tier-header">
+                        <h3 class="tier-name">Supporter</h3>
+                        <div class="tier-price">$499<span class="period">/year</span></div>
+                    </div>
+                    <div class="tier-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> All Family benefits</li>
+                            <li><i class="fas fa-check"></i> 4 additional guest passes (6 total)</li>
+                            <li><i class="fas fa-check"></i> Behind-the-scenes tour for 4 people</li>
+                            <li><i class="fas fa-check"></i> 20% discount on food & merchandise</li>
+                            <li><i class="fas fa-check"></i> Recognition in Zoo Times magazine</li>
+                            <li><i class="fas fa-check"></i> Exclusive member events with keepers</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        <a href="#" class="cta-button">Select Supporter</a>
+                    </div>
+                </div>
+
+                <div class="tier-card platinum">
+                    <div class="tier-header">
+                        <h3 class="tier-name">Conservationist</h3>
+                        <div class="tier-price">$699<span class="period">/year</span></div>
+                    </div>
+                    <div class="tier-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> All Supporter benefits</li>
+                            <li><i class="fas fa-check"></i> Unlimited guest passes</li>
+                            <li><i class="fas fa-check"></i> Private animal encounter experience</li>
+                            <li><i class="fas fa-check"></i> VIP parking and entry</li>
+                            <li><i class="fas fa-check"></i> 30% discount on food & merchandise</li>
+                            <li><i class="fas fa-check"></i> Invitation to annual donor appreciation event</li>
+                            <li><i class="fas fa-check"></i> Naming opportunity on select exhibits</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        <a href="#" class="cta-button">Select Conservationist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Exclusive Member Benefits</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-image">
+                        <img src="https://milwaukeezoo.org/wp-content/uploads/BigCats_RedPanda_Erin.jpg" alt="Zoolirante Zoo members enjoying unlimited access">
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Unlimited Access</h3>
+                        <p>Visit as often as you like for an entire year. Experience the zoo in every season and never miss a new exhibit or animal arrival.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-image">
+                        <img src="https://thumbs.dreamstime.com/b/speech-balloon-exclusive-discount-offer-stylish-yellow-bubble-writing-offering-shop-136762661.jpg" alt="Zoolirante Zoo members receiving discounts on food and merchandise">
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Exclusive Discounts</h3>
+                        <p>Enjoy significant savings on food, merchandise, and special experiences throughout the zoo. Your membership pays for itself!</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-image">
+                        <img src="https://brandywinezoo.org/wp-content/uploads/2025/01/Member-Night-Smigie-2023.jpg" alt="Zoolirante Zoo members at a special event">
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Member-Only Events</h3>
+                        <p>Get invited to exclusive after-hours events, early exhibit openings, and special keeper talks not available to general visitors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Members Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "We've been members for three years now, and it's the best investment we make for our family. The kids love visiting every month, and we've saved hundreds on admission and food."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://content.api.news/v3/images/bin/867d5f91074ee57280e5bff6b3328254" alt="Sarah Johnson, Family Member">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Family Member since 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "As a photographer, the membership gives me unlimited opportunities to capture amazing wildlife shots throughout the year. The early access hours are perfect for getting those crowd-free photos."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://pixy.org/src/9/92205.jpg" alt="Michael Chen, Individual Member">
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Individual Member since 2020</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "The behind-the-scenes tours available to Supporter members are incredible. We've gotten to feed giraffes and learn about animal care from the keepers. It's worth every penny for these unique experiences."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://robertsozlapnomap.wordpress.com/wp-content/uploads/2018/02/19092642_10154430337882397_8110877302790503765_o.jpg?w=1200" alt="The Roberts Family, Supporter Members">
+                        </div>
+                        <div class="author-info">
+                            <h4>The Roberts Family</h4>
+                            <p>Supporter Members since 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do I purchase a membership? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can purchase a membership online through our secure portal, over the phone by calling (61) 21234 5678, or in person at any of our ticket booths. Online purchases are activated immediately, and you can start using your membership right away!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I upgrade my membership? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! You can upgrade your membership at any time by paying the difference between your current membership and the new level. Just visit our membership desk or call us, and we'll be happy to assist you with the upgrade process.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is my membership tax-deductible? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Zoolirante is a registered non-profit organization. The portion of your membership fee that exceeds the value of benefits received may be tax-deductible. Please consult with your tax advisor for specific guidance regarding your situation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do guest passes work? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Guest passes allow you to bring friends or family members who aren't on your membership. Simply present your membership card at the ticket booth, and we'll process your guest passes. Passes are valid for one year from the date of membership purchase.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What if I lose my membership card? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>If you lose your membership card, please contact our membership department at members@zoolirante.com.au or call (61) 21234 5678. We can issue a replacement card for a small fee, or you can simply show your ID at the ticket booth for entry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+
+        function checkVisibility() {
+            document.querySelectorAll('.tier-card, .benefit-card, .testimonial-card').forEach(element => {
+                const position = element.getBoundingClientRect();
+
+                if (position.top < window.innerHeight - 100 && position.bottom >= 0) {
+                    element.style.opacity = 1;
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+
+        document.querySelectorAll('.tier-card, .benefit-card, .testimonial-card').forEach(element => {
+            element.style.opacity = 0;
+            element.style.transform = 'translateY(20px)';
+            element.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+        });
+
+        window.addEventListener('load', checkVisibility);
+        window.addEventListener('scroll', checkVisibility);
+
+        checkVisibility();
+    </script>
+</body>
+</html>
