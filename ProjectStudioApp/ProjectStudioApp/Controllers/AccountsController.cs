@@ -20,9 +20,26 @@ namespace ProjectStudioApp.Controllers
         }
 
         // GET: Accounts
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? Email)
         {
-            return View(await _context.Accounts.ToListAsync());
+            IQueryable<Account> Login = _context.Accounts;
+
+            if (Email != null)
+            {
+                var emailMatch = await _context.Accounts.FirstOrDefaultAsync(a => a.Email == Email);
+
+                if (emailMatch != null)
+                {
+                    Login = Login.Where(i => i.Email == Email);
+                    return View(await Login.ToListAsync());
+                }
+
+                // Email not found
+                return View(null);
+            }
+
+            // No email provided
+            return View(null);
         }
 
         // GET: Accounts/Details/5
