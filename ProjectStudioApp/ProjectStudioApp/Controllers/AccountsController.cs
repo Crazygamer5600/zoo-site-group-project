@@ -26,12 +26,12 @@ namespace ProjectStudioApp.Controllers
 
             if (!string.IsNullOrEmpty(Email))
             {
-                var emailMatch = await _context.Accounts.FirstOrDefaultAsync(a => a.Email == Email);
+                var accountMatch = await _context.Accounts.FirstOrDefaultAsync(a => a.Email == Email);
 
-                if (emailMatch != null)
+                if (accountMatch != null)
                 {
                     // Set the static variable only if a valid account is found
-                    LoggedInUser.Email = emailMatch.Email;
+                    LoggedInUser.CurrentAccount = accountMatch;
 
                     Login = Login.Where(i => i.Email == Email);
                     return View(await Login.ToListAsync());
@@ -173,6 +173,13 @@ namespace ProjectStudioApp.Controllers
         private bool AccountExists(int id)
         {
             return _context.Accounts.Any(e => e.AccountId == id);
+        }
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            LoggedInUser.CurrentAccount = null;
+            return RedirectToAction("Index");
         }
 
     }

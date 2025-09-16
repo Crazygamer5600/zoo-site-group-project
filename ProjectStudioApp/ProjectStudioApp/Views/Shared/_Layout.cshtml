@@ -110,6 +110,14 @@
             <a class=" @(ViewData["Title"]?.ToString() == "Accounts" ? "active" : "")"
                asp-controller="Accounts" asp-action="Index"><img src="~/Images/account-icon.png" alt="Figure" style="width: 35px"></a>
         </li>
+        @{
+            if (LoggedInUser.CurrentAccount != null)
+            {
+                <li class="nav-item" style="width: 0px">
+                    <b class="card-header-tabs"> Welcome @LoggedInUser.CurrentAccount.FirstName</b>
+                </li>
+            }
+        }
     </ul>
     
 

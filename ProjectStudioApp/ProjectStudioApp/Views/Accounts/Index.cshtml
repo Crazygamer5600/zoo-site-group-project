@@ -3,18 +3,26 @@
 @{
     ViewData["Title"] = "Index";
 }
+@if (LoggedInUser.CurrentAccount == null)
+{
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="Email">
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+}
+else
+{
+    <form asp-action="Logout" method="post">
+        <button type="submit" class="btn btn-danger">Logout</button>
+    </form>
+}
 
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="Email">
-  </div>
-  <br />
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
-
-@if (Model==null)
+<br />
+@if (Model == null)
 {
     <div class="alert alert-warning">
         No account found with the provided email.

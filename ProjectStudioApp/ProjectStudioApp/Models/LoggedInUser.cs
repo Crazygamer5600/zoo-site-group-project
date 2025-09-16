@@ -2,6 +2,6 @@
 {
     public class LoggedInUser
     {
-        public static string? Email { get; set; } = null;
+        public static Account? CurrentAccount { get; set; } = null;
     }
 }
