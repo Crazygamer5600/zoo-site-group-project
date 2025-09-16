@@ -1,45 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\",
+  "WorkspaceRootPath": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\ourzoo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\ourzoo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\ourzoo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\ourzoo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\controllers\\ourzoocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\controllers\\ourzoocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\home\\ourzoo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\home\\ourzoo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\models\\loggedinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\minag\\onedrive\\onedrive - university of south australia\\2nd year\\semester 2\\project studio\\zoo-crew\\projectstudioapp\\projectstudioapp\\models\\loggedinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\models\\loggedinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,20 +62,59 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\OurZoo\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\OurZoo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\OurZoo\\Index.cshtml",
-              "RelativeToolTip": "ProjectStudioApp\\Views\\OurZoo\\Index.cshtml",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ProjectStudioApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T13:42:50.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T13:42:16.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Program.cs",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Program.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T13:21:09.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OurZoo.cshtml",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\OurZoo.cshtml",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\OurZoo.cshtml",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\OurZoo.cshtml",
+              "RelativeToolTip": "ProjectStudioApp\\Views\\Home\\OurZoo.cshtml",
               "ViewState": "AgIAAEYAAAAAAAAAAAAQwFYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-16T12:49:52.57Z",
@@ -79,24 +122,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\OurZoo\\Details.cshtml",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\OurZoo\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\OurZoo\\Details.cshtml",
-              "RelativeToolTip": "ProjectStudioApp\\Views\\OurZoo\\Details.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T12:49:47.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "ProjectStudioApp\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -106,73 +136,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OurZooController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\OurZooController.cs",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\OurZooController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\OurZooController.cs",
-              "RelativeToolTip": "ProjectStudioApp\\Controllers\\OurZooController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:45:48.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
               "RelativeDocumentMoniker": "ProjectStudioApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
               "RelativeToolTip": "ProjectStudioApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-16T12:41:43.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAYwJYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-16T02:13:17.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ProjectStudioApp\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T01:27:45.994Z"
+              "WhenOpened": "2025-09-16T01:27:45.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoggedInUser.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\LoggedInUser.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
               "RelativeToolTip": "ProjectStudioApp\\Models\\LoggedInUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T01:20:26.494Z"
+              "WhenOpened": "2025-09-16T01:20:26.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
               "RelativeToolTip": "ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -181,15 +200,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "ProjectStudioApp\\Controllers\\AccountsController.cs",
               "ViewState": "AgIAAJ8AAAAAAAAAAAAiwLUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T14:52:14.24Z"
+              "WhenOpened": "2025-09-15T14:52:14.24Z",
+              "EditorCaption": ""
             }
           ]
         }

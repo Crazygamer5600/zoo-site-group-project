@@ -106,9 +106,7 @@
         <li class="nav-item">
             <a class="nav-link rounded-5" asp-controller="Membership" asp-action="Index">Membership</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link rounded-5" asp-controller="OurZoo" asp-action="Index">OurZoo</a>
-        </li>
+
         <li class="figure-img">
             <a class=" @(ViewData["Title"]?.ToString() == "Accounts" ? "active" : "")"
                asp-controller="Accounts" asp-action="Index"><img src="~/Images/account-icon.png" alt="Figure" style="width: 35px"></a>
@@ -149,7 +147,9 @@
                 <div class="col-md-3 mb-4">
                     <h6 class="fw-bold">About</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light text-decoration-none">Our Zoo</a></li>
+                        <li>
+                            <a asp-controller="Home" asp-action="OurZoo">OurZoo</a>
+                        </li>
                         <li><a href="#" class="text-light text-decoration-none">Education</a></li>
                         <li><a href="#" class="text-light text-decoration-none">Conservation</a></li>
                     </ul>

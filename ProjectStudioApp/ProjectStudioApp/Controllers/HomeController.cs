@@ -30,5 +30,10 @@ namespace ProjectStudioApp.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult OurZoo()
+        {
+            return View(); // Looks for a view file: Views/Home/OurZoo.cshtml
+        }
     }
 }
