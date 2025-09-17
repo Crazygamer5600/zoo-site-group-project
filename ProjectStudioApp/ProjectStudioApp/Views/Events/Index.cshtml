@@ -1,17 +1,197 @@
 ﻿@model IEnumerable<ProjectStudioApp.Models.Event>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Upcoming Events";
 }
 
-<!-- ===== EVENTS ===== -->
-<section id="events" class="zoo-section container mt-4">
-    <h2 style="color:#d2691e;">Upcoming Events</h2>
-    @foreach (var eventItem in Model)
-    {
-        <div class="card mb-2 p-3">
-            <strong>@eventItem.EventStart.ToString("dd MMM")</strong> – @eventItem.EventName
-        </div>
-	}
-    
+<style>
+
+    :root {
+        --primary-color: #d2691e;
+        --secondary-color: #FFA500;
+        --background-color: #f8f4f0;
+        --card-bg: white;
+        --text-color: #333;
+        --light-text: #666;
+        --hover-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.7;
+    }
+
+    .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        color: var(--primary-color);
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 40px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+    .event-card {
+        background-color: var(--card-bg);
+        border: none;
+        border-radius: 12px;
+        box-shadow: var(--card-shadow);
+        margin-bottom: 25px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-width: 300px;
+        box-sizing: border-box;
+    }
+
+        .event-card:hover {
+            transform: translateY(-7px);
+            box-shadow: var(--hover-shadow);
+        }
+
+    .event-image-container {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .event-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .event-card:hover .event-image {
+        transform: scale(1.05);
+    }
+
+    .event-content {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .event-header {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+
+    .event-date {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: var(--secondary-color);
+        margin-right: 25px;
+        text-align: center;
+        line-height: 1.1;
+        flex-shrink: 0;
+    }
+
+        .event-date .day {
+            display: block;
+            font-size: 2.8rem;
+            line-height: 1;
+            color: var(--primary-color);
+        }
+
+    .event-info {
+        flex-grow: 1;
+    }
+
+    .event-title {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--text-color);
+        margin-bottom: 8px;
+    }
+
+    .event-time {
+        font-size: 0.95rem;
+        color: var(--light-text);
+        margin-bottom: 12px;
+    }
+
+    .event-tag {
+        display: inline-block;
+        background-color: #e0f7fa;
+        color: #00796b;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .event-description {
+        font-size: 1rem;
+        color: var(--light-text);
+        line-height: 1.6;
+        margin-top: 10px;
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+    }
+
+    .card-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 25px;
+        justify-content: center;
+    }
+</style>
+
+<section id="upcoming-events" class="container">
+    <h2 class="section-title">Upcoming Events</h2>
+
+    <div class="card-row">
+        @foreach (var eventItem in Model.OrderBy(e => e.EventStart))
+        {
+            string eventType = "General";
+            if (eventItem.EventName.Contains("Feeding", StringComparison.OrdinalIgnoreCase)) { eventType = "Feeding Time"; }
+            else if (eventItem.EventName.Contains("Talk", StringComparison.OrdinalIgnoreCase)) { eventType = "Talk"; }
+            else if (eventItem.EventName.Contains("Show", StringComparison.OrdinalIgnoreCase)) { eventType = "Show"; }
+            else if (eventItem.EventName.Contains("Handling", StringComparison.OrdinalIgnoreCase)) { eventType = "Handling"; }
+            else if (eventItem.EventName.Contains("Tour", StringComparison.OrdinalIgnoreCase)) { eventType = "Tour"; }
+
+            <div class="event-card" data-event-type="@eventType.ToLower().Replace(" ", "-")">
+                <div class="event-image-container">
+                    **<img src="@eventItem.EventPhoto" alt="Image of @eventItem.EventName" class="event-image">**
+                </div>
+                <div class="event-content">
+                    <div class="event-header">
+                        <div class="event-date">
+                            <span class="day">@eventItem.EventStart.ToString("dd")</span>
+                            <span class="month">@eventItem.EventStart.ToString("MMM")</span>
+                        </div>
+                        <div class="event-info">
+                            <span class="event-tag @eventType.ToLower().Replace(" ", "-")">@eventType</span>
+                            <div class="event-title">@eventItem.EventName</div>
+                            <div class="event-time">@eventItem.EventStart.ToString("hh:mm tt") - @eventItem.EventEnd.ToString("hh:mm tt")</div>
+                            <div class="event-description">
+                                <p>Join us for an exciting session to learn about our amazing animals!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </section>
+
+
