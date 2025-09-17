@@ -32,6 +32,12 @@
                 <input asp-for="ContactNumber" class="form-control" />
                 <span asp-validation-for="ContactNumber" class="text-danger"></span>
             </div>
+            <div class="form-group form-check">
+                <input id="IsAbove13" name="IsAbove13" type="checkbox" class="form-check-input" required />
+                <label for="IsAbove13" class="form-check-label">
+                    I confirm that I am at least 13 years old.
+                </label>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
