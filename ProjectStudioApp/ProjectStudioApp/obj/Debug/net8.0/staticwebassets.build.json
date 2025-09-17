@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xIQuXH9dIZCxW/hIASqRJVikmAhxzCO93fgZ7/XECjE=",
+  "Hash": "ZU1bbkAxFhwF7fTTWFPN0E6+S3fX1mtT2W3N5tYFs64=",
   "Source": "ProjectStudioApp",
   "BasePath": "_content/ProjectStudioApp",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\unnamed (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\wwwroot\\Images\\unnamed.png",
+      "SourceId": "ProjectStudioApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\wwwroot\\",
+      "BasePath": "_content/ProjectStudioApp",
+      "RelativePath": "Images/unnamed.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\unnamed.png"
     },
     {
       "Identity": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\wwwroot\\js\\site.js",

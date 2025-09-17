@@ -39,6 +39,9 @@ namespace ProjectStudioApp.Controllers
         {
             return View();
         }
-
+        public IActionResult zooMap()
+        {
+            return View();
+        }
     }
 }
