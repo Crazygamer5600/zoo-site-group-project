@@ -152,9 +152,15 @@
                 <div class="col-md-3 mb-4">
                     <h6 class="fw-bold">About</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light text-decoration-none">Our Zoo</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Education</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Conservation</a></li>
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="Conservation">Conservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="OurZoo">OurZoo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-4">
