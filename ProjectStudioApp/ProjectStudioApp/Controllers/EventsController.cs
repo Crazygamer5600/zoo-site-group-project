@@ -22,8 +22,26 @@ namespace ProjectStudioApp.Controllers
         // GET: Events
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Events.ToListAsync());
+
+            var currentTime = DateTime.Now;
+
+            int warnTime = 60; //Change this to alter how much time (MINUTES) is given before an event is determined to be upcoming and and thus pressed to notification. 
+
+            var upcomingEvent = await _context.Events
+                .Where(e => e.EventStart > currentTime && e.EventStart <= currentTime.AddMinutes(warnTime))
+                .OrderBy(e => e.EventStart)
+                .FirstOrDefaultAsync();
+
+            if (upcomingEvent != null)
+            {
+                TempData["EventWarningMessage"] = $"Event '{upcomingEvent.EventName}' is starting in {warnTime} minutes!";
+
+                TempData["EventWarningTime"] = upcomingEvent.EventStart.ToString("HH:mm");
+            }
+            var events = await _context.Events.ToListAsync();
+            return View(events);
         }
+
 
         // GET: Events/Details/5
         public async Task<IActionResult> Details(int? id)

@@ -106,7 +106,6 @@
         <li class="nav-item">
             <a class="nav-link rounded-5" asp-controller="Membership" asp-action="Index">Membership</a>
         </li>
-
         <li class="figure-img">
             <a class=" @(ViewData["Title"]?.ToString() == "Accounts" ? "active" : "")"
                asp-controller="Accounts" asp-action="Index"><img src="~/Images/account-icon.png" alt="Figure" style="width: 35px"></a>
@@ -120,7 +119,7 @@
             }
         }
     </ul>
-    
+
 
     <!-- ===== Page Content and Background Colour ===== -->
 
@@ -136,6 +135,12 @@
         </main>
     </div>
 
+    <!-- ===== Notifications here ===== -->
+    <div id="notificationContainer" class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 9999;">
+        <!-- Toasts will be inserted here -->
+    </div>
+
+
     <!-- ===== Footer ===== -->
     <footer class="bg-dark text-light mt-5 pt-5 pb-3">
         <div class="container">
@@ -147,15 +152,9 @@
                 <div class="col-md-3 mb-4">
                     <h6 class="fw-bold">About</h6>
                     <ul class="list-unstyled">
-                        <li>
-                            <a asp-controller="Home" asp-action="OurZoo">OurZoo</a>
-                        </li>
-                        <li>
-                            <a asp-controller="Home" asp-action="Conservation">Conservation</a>
-                        </li>
-                        <li>
-                            <a asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        <li><a href="#" class="text-light text-decoration-none">Our Zoo</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Education</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Conservation</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-4">
@@ -196,5 +195,9 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+
+
+
 </body>
 </html>

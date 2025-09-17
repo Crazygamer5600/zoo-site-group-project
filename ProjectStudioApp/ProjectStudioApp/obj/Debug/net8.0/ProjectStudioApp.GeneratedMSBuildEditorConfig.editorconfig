@@ -17,171 +17,173 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectStudioApp
 build_property.RootNamespace = ProjectStudioApp
-build_property.ProjectDir = C:\Users\minag\OneDrive\OneDrive - University of South Australia\2nd Year\Semester 2\Project Studio\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\
+build_property.ProjectDir = C:\Users\asus\Desktop\UNI_FILES\Project Studio\Project Studio App\Zoo-Crew\ProjectStudioApp\ProjectStudioApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\minag\OneDrive\OneDrive - University of South Australia\2nd Year\Semester 2\Project Studio\Zoo-Crew\ProjectStudioApp\ProjectStudioApp
+build_property.MSBuildProjectDirectory = C:\Users\asus\Desktop\UNI_FILES\Project Studio\Project Studio App\Zoo-Crew\ProjectStudioApp\ProjectStudioApp
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Create.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Delete.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Details.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Edit.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Index.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Accounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Create.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Delete.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Details.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Edit.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Index.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/ShowcasePartial.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Animals/ShowcasePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xTaG93Y2FzZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Create.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Delete.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Details.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Edit.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Index.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Bookings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Create.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Delete.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Details.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Edit.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Index.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Events/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/Conservation.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/Conservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25zZXJ2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/Index.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/OurZoo.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/OurZoo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPdXJab28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/Privacy.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Create.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Delete.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Details.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Edit.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Index.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Membership/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Create.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbmRpc2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Delete.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbmRpc2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Details.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbmRpc2VcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Edit.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbmRpc2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Index.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Merchandise/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbmRpc2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Shared/Error.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/_ViewImports.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/_ViewStart.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/minag/OneDrive/OneDrive - University of South Australia/2nd Year/Semester 2/Project Studio/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Shared/_Layout.cshtml]
+[C:/Users/asus/Desktop/UNI_FILES/Project Studio/Project Studio App/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2kusf397x4
