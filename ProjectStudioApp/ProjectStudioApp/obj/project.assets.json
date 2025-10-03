@@ -8018,24 +8018,27 @@
     ]
   },
   "packageFolders": {
-    "/home/mina/.nuget/packages/": {}
+    "C:\\Users\\minag\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mina/RiderProjects/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/ProjectStudioApp.csproj",
+      "projectUniqueName": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
       "projectName": "ProjectStudioApp",
-      "projectPath": "/home/mina/RiderProjects/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/ProjectStudioApp.csproj",
-      "packagesPath": "/home/mina/.nuget/packages/",
-      "outputPath": "/home/mina/RiderProjects/Zoo-Crew/ProjectStudioApp/ProjectStudioApp/obj/",
+      "projectPath": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\ProjectStudioApp.csproj",
+      "packagesPath": "C:\\Users\\minag\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\minag\\OneDrive\\OneDrive - University of South Australia\\2nd Year\\Semester 2\\Project Studio\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/mina/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\minag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8103,7 +8106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
