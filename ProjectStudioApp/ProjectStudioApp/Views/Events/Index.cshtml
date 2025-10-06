@@ -55,11 +55,10 @@
         min-width: 300px;
         box-sizing: border-box;
     }
-
-        .event-card:hover {
-            transform: translateY(-7px);
-            box-shadow: var(--hover-shadow);
-        }
+    .event-card:hover {
+        transform: translateY(-7px);
+        box-shadow: var(--hover-shadow);
+    }
 
     .event-image-container {
         width: 100%;
@@ -74,7 +73,6 @@
         object-fit: cover;
         transition: transform 0.3s ease;
     }
-
     .event-card:hover .event-image {
         transform: scale(1.05);
     }
@@ -101,17 +99,14 @@
         line-height: 1.1;
         flex-shrink: 0;
     }
-
-        .event-date .day {
-            display: block;
-            font-size: 2.8rem;
-            line-height: 1;
-            color: var(--primary-color);
-        }
-
-    .event-info {
-        flex-grow: 1;
+    .event-date .day {
+        display: block;
+        font-size: 2.8rem;
+        line-height: 1;
+        color: var(--primary-color);
     }
+
+    .event-info { flex-grow: 1; }
 
     .event-title {
         font-size: 1.6rem;
@@ -212,6 +207,16 @@
                                         <p>@description</p>
                                     }
                                 </div>
+
+                                <!-- ✅ Added: View Details button -->
+                                <div class="mt-2">
+                                    <a asp-action="Details"
+                                       asp-route-id="@eventItem.EventId"
+                                       class="btn btn-outline-success rounded-pill">
+                                        <i class="bi bi-info-circle"></i> View Details
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -220,5 +225,3 @@
         </div>
     </div>
 </section>
-
-
