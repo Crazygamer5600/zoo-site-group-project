@@ -1,4 +1,147 @@
-﻿<div class="container my-5">
+﻿@{
+    ViewData["Title"] = "Conservation";
+}
+
+<style>
+    
+    .donate-btn-bottom {
+        
+        width: 98%;
+        margin: 10px auto; 
+        display: block;
+        font-size: 1.2em;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    
+    .modal {
+        display: none; 
+        position: fixed;
+        z-index: 1000; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 30px;
+        border-radius: 10px;
+        width: 90%;
+        max-width: 500px;
+        position: relative;
+        text-align: center;
+    }
+    .close-btn {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0;
+    }
+
+   
+    .amount-options {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .amount-btn {
+        flex: 1;
+        background-color: #f0f0f0;
+        border: 2px solid #ccc;
+        padding: 15px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: all 0.2s;
+        text-align: center;
+    }
+    .amount-btn small {
+        display: block;
+        font-size: 0.7em;
+        color: #666;
+    }
+    .amount-btn.selected {
+        background-color: #ffe0b2; 
+        border-color: #ff9800;
+        font-weight: bold;
+    }
+    .custom-amount input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .donation-frequency {
+        margin-top: 15px;
+        text-align: left;
+    }
+    .next-step-btn, .complete-btn {
+        background-color: #4CAF50; 
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.1em;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .next-step-btn:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    
+    #donate-step-2 {
+        text-align: left;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .security-note {
+        font-size: 0.8em;
+        color: #666;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    
+    .donate-step {
+        display: none;
+    }
+    .donate-step.active {
+        display: block;
+    }
+</style>
+
+<div class="container my-5">
     <div class="card shadow rounded-3">
         <div class="row g-0">
             <div class="col-md-8">
@@ -12,15 +155,163 @@
 
                     <p><strong>Sustainable Practices:</strong> Our commitment extends beyond our exhibits. We integrate sustainable practices in our operations, from reducing waste and conserving water to supporting renewable energy initiatives.</p>
 
-                    <p><strong>Community and Global Impact:</strong> Conservation is a collective responsibility. Zoolirante collaborates with local communities, conservation groups, and global organizations to amplify our efforts and create lasting change.</p>
+                    <p><strong>Community and Global Impact:</strong> Conservation is a collective responsibility. Zoolirante collaborates with local communities, conservation groups, and global organizations to amplify their efforts and create lasting change.</p>
 
                     <p><strong>Future Generations:</strong> We recognize that the choices we make today shape the world of tomorrow. Our mission is to inspire a deep respect for the natural world and empower individuals to take steps toward a healthier planet.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
-                <img src="~/Images/unnamed (1).png" alt="Placeholder image" class="img-fluid rounded" />
+                <img src="~/Images/unnamed (1).png" alt="Conservation image" class="img-fluid rounded" />
             </div>
-            <button type="button" class="btn btn-warning">Donate Now!</button>
+            <button type="button"
+                    class="btn btn-warning donate-btn-bottom"
+                    id="openDonateModalBottom">
+                Donate Now!
+            </button>
         </div>
     </div>
 </div>
+
+<div id="donateModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="donate-title">Step 1: Choose Your Amount</h2>
+
+        <div id="donate-step-1" class="donate-step active">
+            <p>Your donation directly supports our mission: Conservation of Nature.</p>
+            <div class="amount-options">
+                <button class="amount-btn" data-amount="25">$25 <small>Daily animal food</small></button>
+                <button class="amount-btn" data-amount="50">$50 <small>Education programs</small></button>
+                <button class="amount-btn" data-amount="100">$100 <small>Renewable energy</small></button>
+            </div>
+            <div class="custom-amount">
+                <label for="customAmount">Or enter a custom amount ($AUD):</label>
+                <input type="number" id="customAmount" placeholder="e.g., 75" min="1">
+            </div>
+            <div class="donation-frequency">
+                <label><input type="radio" name="frequency" value="one-time" checked> One-Time</label>
+                <label><input type="radio" name="frequency" value="monthly"> Monthly</label>
+            </div>
+            <button id="goToPayment" class="next-step-btn" disabled>Next: Go to Payment</button>
+        </div>
+
+        <div id="donate-step-2" class="donate-step">
+            <h3>Final Step: Complete Your Secure Payment</h3>
+            <p>You are donating: <strong id="finalAmountDisplay">$0</strong></p>
+
+            <form id="paymentForm">
+                <div class="form-group"><label for="cardName">Name on Card</label><input type="text" id="cardName" required></div>
+                <div class="form-group"><label for="cardNumber">Card Number</label><input type="text" id="cardNumber" placeholder="**** **** **** ****" required></div>
+                <button type="submit" id="completeDonation" class="complete-btn">Complete Donation</button>
+            </form>
+            <p class="security-note">Payments are securely processed via a trusted gateway (Simulated).</p>
+        </div>
+
+        <div id="donate-step-3" class="donate-step">
+            <h3>Thank You!</h3>
+            <p>Your generous donation of <strong id="thankYouAmount">$0</strong> has been successfully processed.</p>
+            <p>You are now a key supporter of wildlife conservation!</p>
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        const openBtn = document.getElementById('openDonateModalBottom');
+
+        
+        const donateModal = document.getElementById('donateModal');
+        const closeBtns = document.querySelectorAll('.close-btn');
+        const goToPaymentBtn = document.getElementById('goToPayment');
+        const paymentForm = document.getElementById('paymentForm');
+        const amountBtns = document.querySelectorAll('.amount-btn');
+        const customAmountInput = document.getElementById('customAmount');
+
+        let selectedAmount = 0; 
+
+        
+        if (openBtn) {
+            openBtn.onclick = () => {
+                donateModal.style.display = 'block';
+                showStep(1);
+            }
+        }
+
+        closeBtns.forEach(btn => {
+            btn.onclick = () => {
+                donateModal.style.display = 'none';
+            }
+        });
+
+        window.onclick = (event) => {
+            if (event.target == donateModal) {
+                donateModal.style.display = 'none';
+            }
+        }
+
+        
+        const showStep = (stepNumber) => {
+            const steps = document.querySelectorAll('.donate-step');
+            steps.forEach(step => step.classList.remove('active'));
+            document.getElementById(`donate-step-${stepNumber}`).classList.add('active');
+
+            
+            const titleElement = document.getElementById('donate-title');
+            if (stepNumber === 1) {
+                titleElement.textContent = 'Step 1: Choose Your Amount';
+            } else if (stepNumber === 2) {
+                titleElement.textContent = 'Step 2: Payment Details';
+                document.getElementById('finalAmountDisplay').textContent = `$${selectedAmount.toFixed(2)}`;
+            } else if (stepNumber === 3) {
+                titleElement.textContent = 'Donation Complete!';
+                document.getElementById('thankYouAmount').textContent = `$${selectedAmount.toFixed(2)}`;
+            }
+        }
+
+        
+        const updateSelectedAmount = (amount) => {
+            selectedAmount = Math.max(0, parseFloat(amount) || 0);
+            goToPaymentBtn.disabled = selectedAmount <= 0;
+        };
+
+        amountBtns.forEach(btn => {
+            btn.onclick = () => {
+                amountBtns.forEach(b => b.classList.remove('selected'));
+                btn.classList.add('selected');
+                customAmountInput.value = '';
+
+                updateSelectedAmount(parseFloat(btn.dataset.amount));
+            };
+        });
+
+        customAmountInput.oninput = () => {
+            amountBtns.forEach(b => b.classList.remove('selected'));
+            updateSelectedAmount(customAmountInput.value);
+        };
+
+        
+        goToPaymentBtn.onclick = () => {
+            if (selectedAmount > 0) {
+                showStep(2);
+            }
+        };
+
+        
+        paymentForm.onsubmit = (e) => {
+            e.preventDefault();
+
+            const completeBtn = document.getElementById('completeDonation');
+            completeBtn.textContent = 'Processing...';
+            completeBtn.disabled = true;
+
+            setTimeout(() => {
+                completeBtn.textContent = 'Complete Donation';
+                completeBtn.disabled = false;
+
+                showStep(3);
+            }, 1500);
+        };
+    });
+</script>

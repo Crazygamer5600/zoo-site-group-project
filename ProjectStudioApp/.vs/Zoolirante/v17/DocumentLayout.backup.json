@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\home\\conservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\home\\conservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\bookings\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\bookings\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\bookings\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\bookings\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\models\\loggedinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\models\\loggedinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -81,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|c:\\users\\lenovo\\onedrive\\zoo-crew\\projectstudioapp\\projectstudioapp\\views\\home\\conservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F2CC450-6AC4-49DD-925F-815544279A18}|ProjectStudioApp\\ProjectStudioApp.csproj|solutionrelative:projectstudioapp\\views\\home\\conservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 357,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,60 +113,36 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\Booking.cs",
-              "RelativeToolTip": "ProjectStudioApp\\Models\\Booking.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T04:08:44.248Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\BookingViewModel.cs",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\BookingViewModel.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\BookingViewModel.cs",
-              "RelativeToolTip": "ProjectStudioApp\\Models\\BookingViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T04:10:14.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Bookings\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Bookings\\Index.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Bookings\\Index.cshtml",
               "RelativeToolTip": "ProjectStudioApp\\Views\\Bookings\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-06T04:14:00.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T04:14:00.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\BookingsController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\BookingsController.cs*",
-              "RelativeToolTip": "ProjectStudioApp\\Controllers\\BookingsController.cs*",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Controllers\\BookingsController.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T09:03:18.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T09:03:18.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Checkout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Bookings\\Checkout.cshtml.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Bookings\\Checkout.cshtml.cs",
@@ -166,29 +150,24 @@
               "RelativeToolTip": "ProjectStudioApp\\Views\\Bookings\\Checkout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T04:26:05.06Z",
+              "WhenOpened": "2025-10-06T04:26:05.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Conservation.cshtml",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Conservation.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Conservation.cshtml*",
+              "RelativeToolTip": "ProjectStudioApp\\Views\\Home\\Conservation.cshtml*",
+              "ViewState": "AgIAABgBAAAAAAAAAAAAAL4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:10:36.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoggedInUser.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\LoggedInUser.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
-              "RelativeToolTip": "ProjectStudioApp\\Models\\LoggedInUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T04:33:01.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Bookings\\Checkout.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Bookings\\Checkout.cshtml",
@@ -201,57 +180,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
-              "RelativeToolTip": "ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAANgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T09:55:41.992Z",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ProjectStudioApp\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAqwG4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-06T09:16:58.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "ProjectStudioApp\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAwwKQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T04:28:44.835Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProjectStudioApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-06T09:16:22.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ProjectStudioApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T15:08:55.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "ProjectStudioApp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T04:09:52.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\appsettings.json",
               "RelativeDocumentMoniker": "ProjectStudioApp\\appsettings.json",
@@ -263,7 +217,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\BookingViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\BookingViewModel.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Models\\BookingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T04:10:14.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\Booking.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Models\\Booking.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T04:08:44.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoggedInUser.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\LoggedInUser.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\LoggedInUser.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Models\\LoggedInUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T04:33:01.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
+              "RelativeToolTip": "ProjectStudioApp\\Views\\Accounts\\Index.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAANgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T09:55:41.992Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAwwKQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T04:28:44.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectStudioApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:08:55.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectStudioApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ProjectStudioApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T04:09:52.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Events\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Events\\Index.cshtml",
@@ -275,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Membership\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Membership\\Index.cshtml",
@@ -287,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "OurZoo.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\OurZoo.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\OurZoo.cshtml",
@@ -299,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Accounts\\Create.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Accounts\\Create.cshtml",
@@ -311,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\EventsController.cs",
@@ -323,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
@@ -335,19 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Conservation.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Conservation.cshtml",
-              "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Conservation.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Conservation.cshtml",
-              "RelativeToolTip": "ProjectStudioApp\\Views\\Home\\Conservation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T15:10:36.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Controllers\\HomeController.cs",
@@ -359,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Home\\Privacy.cshtml",
