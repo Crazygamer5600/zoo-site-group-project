@@ -1,15 +1,60 @@
-﻿@model IEnumerable<ProjectStudioApp.Models.Booking>
+﻿@model ProjectStudioApp.Models.ViewModels.BookingViewModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Ticket Purchase and Checkout";
 }
 
-<!-- ===== TICKETS ===== -->
 <section id="tickets" class="zoo-section container mt-4">
     <h2 style="color:#d2691e;">Ticket Reservation</h2>
-    <div class="row g-3">
-        <div class="col-md-4"><div class="feature-card"><h5>Adult Ticket</h5><div class="price">$45 <small>/person</small></div></div></div>
-        <div class="col-md-4"><div class="feature-card"><h5>Child Ticket</h5><div class="price">$25 <small>/person</small></div></div></div>
-        <div class="col-md-4"><div class="feature-card"><h5>Family Pass</h5><div class="price">$120 <small>/family</small></div></div></div>
-    </div>
+
+    <form asp-action="Create" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="row g-3">
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h5>Adult Ticket</h5>
+                    <div class="price">$45 <small>/person</small></div>
+
+                    <label asp-for="AdultTickets" class="control-label mt-2">Quantity:</label>
+                    <input asp-for="AdultTickets" type="number" min="0" value="0" class="form-control" />
+                    <span asp-validation-for="AdultTickets" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h5>Child Ticket</h5>
+                    <div class="price">$25 <small>/person</small></div>
+
+                    <label asp-for="ChildTickets" class="control-label mt-2">Quantity:</label>
+                    <input asp-for="ChildTickets" type="number" min="0" value="0" class="form-control" />
+                    <span asp-validation-for="ChildTickets" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h5>Family Pass</h5>
+                    <div class="price">$120 <small>/family</small></div>
+
+                    <label asp-for="FamilyPackages" class="control-label mt-2">Quantity:</label>
+                    <input asp-for="FamilyPackages" type="number" min="0" value="0" class="form-control" />
+                    <span asp-validation-for="FamilyPackages" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mt-4">
+            <button type="submit" class="btn btn-warning btn-lg">Create Order and Checkout &rarr;</button>
+        </div>
+
+    </form>
 </section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

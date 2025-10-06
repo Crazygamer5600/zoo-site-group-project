@@ -1,0 +1,83 @@
+﻿@model ProjectStudioApp.Models.ViewModels.BookingViewModel
+
+@{
+    ViewData["Title"] = "Order Checkout";
+}
+
+<h2 class="mt-4" style="color:#d2691e;">Order Confirmation and Payment</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card p-4">
+            <h4>Order Summary</h4>
+            <hr />
+            <p><strong>Order ID:</strong> @Model.BookingId</p>
+            <p><strong>Total Amount:</strong> <span class="lead text-success">$@Model.TotalAmount.ToString("N2")</span></p>
+            <p class="text-muted">Please confirm the total amount before proceeding with the simulated payment.</p>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-4">
+            <h4>Simulated Payment Information</h4>
+            <p class="text-danger">**Note:** This is a simulated payment system.</p>
+
+            <div class="form-group">
+                <label for="card-number">Simulated Card Number:</label>
+                <input type="text" id="card-number" class="form-control" placeholder="1234 5678 9012 3456" />
+            </div>
+
+            <button id="payButton" onclick="performSimulatedPayment()" class="btn btn-warning mt-3 btn-lg">
+                Confirm and Simulate Payment $@Model.TotalAmount.ToString("N2")
+            </button>
+
+            <div id="payment-message" class="mt-3"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function performSimulatedPayment() {
+            const bookingId = @Model.BookingId;
+            const cardNumber = document.getElementById('card-number').value;
+
+            if (!cardNumber) {
+                document.getElementById('payment-message').innerHTML = '<span class="text-danger">Please enter a simulated card number.</span>';
+                return;
+            }
+
+            document.getElementById('payment-message').textContent = 'Processing securely...';
+            document.getElementById('payButton').disabled = true;
+
+            // Call the SimulatePayment Action in BookingsController
+            fetch('/Bookings/SimulatePayment', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    BookingId: bookingId,
+                    MockCardNumber: cardNumber
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('payButton').disabled = false;
+
+                if (data.success) {
+                    document.getElementById('payment-message').innerHTML =
+                        `<span class="text-success">✅ ${data.message} </span><br>Transaction Ref: ${data.transactionRef}`;
+                } else {
+                    // Translated error message, kept dynamic
+                    document.getElementById('payment-message').innerHTML =
+                        `<span class="text-danger">❌ ${data.message} </span><br>Please try again.`;
+                }
+            })
+            .catch(error => {
+                document.getElementById('payButton').disabled = false;
+                document.getElementById('payment-message').innerHTML = '<span class="text-danger">Network error, please try again later.</span>';
+                console.error('Fetch error:', error);
+            });
+        }
+    </script>
+}
+```
