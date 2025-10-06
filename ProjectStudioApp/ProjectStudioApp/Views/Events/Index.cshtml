@@ -160,37 +160,64 @@
     <h2 class="section-title">Upcoming Events</h2>
 
     <div class="card-row">
-        @foreach (var eventItem in Model.OrderBy(e => e.EventStart))
-        {
-            string eventType = "General";
-            if (eventItem.EventName.Contains("Feeding", StringComparison.OrdinalIgnoreCase)) { eventType = "Feeding Time"; }
-            else if (eventItem.EventName.Contains("Talk", StringComparison.OrdinalIgnoreCase)) { eventType = "Talk"; }
-            else if (eventItem.EventName.Contains("Show", StringComparison.OrdinalIgnoreCase)) { eventType = "Show"; }
-            else if (eventItem.EventName.Contains("Handling", StringComparison.OrdinalIgnoreCase)) { eventType = "Handling"; }
-            else if (eventItem.EventName.Contains("Tour", StringComparison.OrdinalIgnoreCase)) { eventType = "Tour"; }
+        <div class="card-row">
+            @foreach (var eventItem in Model.OrderBy(e => e.EventStart))
+            {
+                string eventType = "General";
+                if (eventItem.EventName.Contains("Feeding", StringComparison.OrdinalIgnoreCase)) { eventType = "Feeding Time"; }
+                else if (eventItem.EventName.Contains("Talk", StringComparison.OrdinalIgnoreCase)) { eventType = "Talk"; }
+                else if (eventItem.EventName.Contains("Show", StringComparison.OrdinalIgnoreCase)) { eventType = "Show"; }
+                else if (eventItem.EventName.Contains("Handling", StringComparison.OrdinalIgnoreCase)) { eventType = "Handling"; }
+                else if (eventItem.EventName.Contains("Tour", StringComparison.OrdinalIgnoreCase)) { eventType = "Tour"; }
 
-            <div class="event-card" data-event-type="@eventType.ToLower().Replace(" ", "-")">
-                <div class="event-image-container">
-                    <img src="@eventItem.EventPhoto" alt="Image of @eventItem.EventName" class="event-image">
-                </div>
-                <div class="event-content">
-                    <div class="event-header">
-                        <div class="event-date">
-                            <span class="day">@eventItem.EventStart.ToString("dd")</span>
-                            <span class="month">@eventItem.EventStart.ToString("MMM")</span>
-                        </div>
-                        <div class="event-info">
-                            <span class="event-tag @eventType.ToLower().Replace(" ", "-")">@eventType</span>
-                            <div class="event-title">@eventItem.EventName</div>
-                            <div class="event-time">@eventItem.EventStart.ToString("hh:mm tt") - @eventItem.EventEnd.ToString("hh:mm tt")</div>
-                            <div class="event-description">
-                                <p>Join us for an exciting session to learn about our amazing animals!</p>
+                <div class="event-card" data-event-type="@eventType.ToLower().Replace(" ", "-")">
+                    <div class="event-image-container">
+                        <img src="@eventItem.EventPhoto" alt="Image of @eventItem.EventName" class="event-image">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-header">
+                            <div class="event-date">
+                                <span class="day">@eventItem.EventStart.ToString("dd")</span>
+                                <span class="month">@eventItem.EventStart.ToString("MMM")</span>
+                            </div>
+                            <div class="event-info">
+                                <span class="event-tag @eventType.ToLower().Replace(" ", "-")">@eventType</span>
+                                <div class="event-title">@eventItem.EventName</div>
+                                <div class="event-time">@eventItem.EventStart.ToString("hh:mm tt") - @eventItem.EventEnd.ToString("hh:mm tt")</div>
+
+                                <div class="event-description">
+                                    @{
+                                        string description;
+                                        switch (eventType)
+                                        {
+                                            case "Feeding Time":
+                                                description = "Witness the raw power and enthusiasm of our animals during their scheduled feeding, and learn about their specific diets and behaviors.";
+                                                break;
+                                            case "Tour":
+                                                description = "Join our expert guide for an immersive trek through the habitat, discovering hidden facts and unique species along the way.";
+                                                break;
+                                            case "Show":
+                                                description = "A thrilling, family-friendly show! Watch the animals perform amazing feats and learn about their unique personalities.";
+                                                break;
+                                            case "Talk":
+                                                description = "Attend a special talk from a Zookeeper or Conservationist on key animal facts and our global protection efforts.";
+                                                break;
+                                            case "Handling":
+                                                description = "Get up close and personal! A unique chance to safely interact with or handle some of our smaller, non-threatening animals.";
+                                                break;
+                                            default:
+                                                description = "Join us for an exciting session to learn about our amazing animals!";
+                                                break;
+                                        }
+                                        <p>@description</p>
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        }
+            }
+        </div>
     </div>
 </section>
 
