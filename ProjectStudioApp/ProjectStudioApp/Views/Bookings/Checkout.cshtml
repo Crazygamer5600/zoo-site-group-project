@@ -20,7 +20,7 @@
     <div class="col-md-6">
         <div class="card p-4">
             <h4>Simulated Payment Information</h4>
-            <p class="text-danger">**Note:** This is a simulated payment system.</p>
+            
 
             <div class="form-group">
                 <label for="card-number">Simulated Card Number:</label>
@@ -50,7 +50,7 @@
             document.getElementById('payment-message').textContent = 'Processing securely...';
             document.getElementById('payButton').disabled = true;
 
-            // Call the SimulatePayment Action in BookingsController
+           
             fetch('/Bookings/SimulatePayment', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -67,7 +67,7 @@
                     document.getElementById('payment-message').innerHTML =
                         `<span class="text-success">✅ ${data.message} </span><br>Transaction Ref: ${data.transactionRef}`;
                 } else {
-                    // Translated error message, kept dynamic
+                    
                     document.getElementById('payment-message').innerHTML =
                         `<span class="text-danger">❌ ${data.message} </span><br>Please try again.`;
                 }
@@ -80,4 +80,3 @@
         }
     </script>
 }
-```
