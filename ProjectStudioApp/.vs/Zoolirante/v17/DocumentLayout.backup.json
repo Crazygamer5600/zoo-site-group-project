@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\hp\\OneDrive\\Zoo-Crew\\ProjectStudioApp\\ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProjectStudioApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAgwIoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAgwJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-07T17:15:38.378Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "ProjectStudioApp\\Views\\Animals\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAgwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T17:02:16.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T17:02:16.392Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "ProjectStudioApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-07T03:41:29.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T03:41:29.407Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "ProjectStudioApp\\Models\\Booking.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T03:51:59.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T03:51:59.883Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "ProjectStudioApp\\Controllers\\BookingsController.cs",
               "ViewState": "AgIAAHgAAAAAAAAAAAAowC4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T03:55:52.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T03:55:52.676Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "ProjectStudioApp\\Views\\Bookings\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T03:51:54.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T03:51:54.638Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "ProjectStudioApp\\Views\\Bookings\\Checkout.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T04:10:27.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T04:10:27.952Z"
             }
           ]
         }

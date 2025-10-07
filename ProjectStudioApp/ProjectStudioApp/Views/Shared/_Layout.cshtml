@@ -79,39 +79,59 @@
     </style>
 </head>
 <body>
+    @{
+        // Use current route to mark the right tab as active
+        var ctrl = (string)ViewContext.RouteData.Values["controller"] ?? "";
+        var act = (string)ViewContext.RouteData.Values["action"] ?? "";
+    }
     <!-- ===== Navbar ===== -->
     <ul class="nav nav-pills nav-fill gap-2 p-1 small rounded-5 shadow-sm" style="background-color:#D9B99B;">
+        <!-- Logo (kept as image link; not styled as pill) -->
         <li class="figure-img rounded-3">
-            <a class="@(ViewData["Title"]?.ToString() == "Home" ? "active" : "")"
-               asp-controller="Home" asp-action="Index"><img src="~/Images/image.png" alt="Figure" width="100"></a>
+            <a class="@(ctrl == "Home" ? "active" : "")"
+               asp-controller="Home" asp-action="Index">
+                <img src="~/Images/image.png" alt="Figure" width="100">
+            </a>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link rounded-5 @(ViewData["Title"]?.ToString() == "Animal Showcase" ? "active" : "")"
+            <a class="nav-link rounded-5 @(ctrl == "Animals" ? "active" : "")"
                asp-controller="Animals" asp-action="Index">Animal Showcase</a>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link rounded-5" asp-controller="Events" asp-action="Index">Upcoming Events</a>
+            <a class="nav-link rounded-5 @(ctrl == "Events" ? "active" : "")"
+               asp-controller="Events" asp-action="Index">Upcoming Events</a>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link rounded-5" asp-controller="Bookings" asp-action="Index">Ticket Reservation</a>
+            <a class="nav-link rounded-5 @(ctrl == "Bookings" ? "active" : "")"
+               asp-controller="Bookings" asp-action="Index">Ticket Reservation</a>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link rounded-5" asp-controller="Merchandise" asp-action="Index">Merchandise</a>
+            <a class="nav-link rounded-5 @(ctrl == "Merchandise" ? "active" : "")"
+               asp-controller="Merchandise" asp-action="Index">Merchandise</a>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link rounded-5" asp-controller="Membership" asp-action="Index">Membership</a>
+            <a class="nav-link rounded-5 @(ctrl == "Membership" ? "active" : "")"
+               asp-controller="Membership" asp-action="Index">Membership</a>
         </li>
+
+        <!-- Account icon (kept as image link; not a pill) -->
         <li class="figure-img">
-            <a class="@(ViewData["Title"]?.ToString() == "Accounts" ? "active" : "")"
-               asp-controller="Accounts" asp-action="Index"><img src="~/Images/account-icon.png" alt="Figure" style="width:35px"></a>
+            <a class="@(ctrl == "Accounts" ? "active" : "")"
+               asp-controller="Accounts" asp-action="Index">
+                <img src="~/Images/account-icon.png" alt="Account" style="width:35px">
+            </a>
         </li>
-        @{
-            if (LoggedInUser.CurrentAccount != null)
-            {
-                <li class="nav-item" style="width: 0px">
-                    <b class="card-header-tabs"> Welcome @LoggedInUser.CurrentAccount.FirstName</b>
-                </li>
-            }
+
+        @if (LoggedInUser.CurrentAccount != null)
+        {
+            <li class="nav-item" style="width: 0px">
+                <b class="card-header-tabs"> Welcome @LoggedInUser.CurrentAccount.FirstName</b>
+            </li>
         }
     </ul>
 
@@ -127,7 +147,6 @@
 
     <!-- ===== Footer ===== -->
     <footer class="bg-dark text-light mt-5 pt-5 pb-3">
-        <!-- (unchanged footer markup) -->
         @* ... your footer code stays as is ... *@
     </footer>
 
