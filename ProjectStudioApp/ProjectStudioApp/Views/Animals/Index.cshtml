@@ -4,28 +4,92 @@
     ViewData["Title"] = "Animal Showcase";
 }
 
-<h2 style="color:#d2691e;">Our Amazing Animals</h2>
+<section class="animal-theme container">
+    <h2 class="section-title">Our Amazing Animals</h2>
 
-<div class="row g-3">
-    @foreach (var animal in Model)
-    {
-        <div class="col-md-4">
-            <div class="feature-card">
-                <img src="@animal.AnimalPhoto" alt="@animal.Name" class="animal-img mb-2" />
-                <h5>@animal.Name</h5>
-                <p><strong>Species:</strong> @animal.Species</p>
-                <p>@animal.Description</p>
-                <a asp-action="Details" asp-route-id="@animal.AnimalId" class="btn btn-zoo btn-sm mt-2">Learn More</a>
+    <div class="row g-3">
+        @foreach (var animal in Model)
+        {
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <img src="@animal.AnimalPhoto" alt="@animal.Name" class="animal-img mb-2" />
+                    <h5 class="card-title">@animal.Name</h5>
+                    <p><strong>Species:</strong> @animal.Species</p>
+                    <p>@animal.Description</p>
+                    <a asp-action="Details" asp-route-id="@animal.AnimalId" class="btn btn-zoo btn-sm mt-2">Learn More</a>
+                </div>
             </div>
-        </div>
-    }
-</div>
+        }
+    </div>
+</section>
 
 <style>
+    /* Page palette */
+    :root {
+        --a-green: #1F8732;
+        --a-forest: #29440C;
+        --a-brown: #9A7A35;
+        --a-sand: #FAEDD1;
+        --a-white: #FFFFFF;
+    }
+
+    /* Page background only (no navbar overrides) */
+    body {
+        background: linear-gradient(135deg, var(--a-sand) 0%, var(--a-white) 100%) !important;
+        color: #333;
+        line-height: 1.6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .section-title {
+        color: var(--a-forest);
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0 0 1rem 0;
+    }
+
+    .feature-card {
+        border-radius: 16px;
+        padding: 24px;
+        text-align: center;
+        background: var(--a-white);
+        box-shadow: 0 10px 30px rgba(0,0,0,.08);
+        border: 1px solid rgba(41,68,12,.08);
+        transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 36px rgba(0,0,0,.12);
+            border-color: var(--a-green);
+        }
+
     .animal-img {
         width: 100%;
         height: 250px;
         object-fit: cover;
         border-radius: 12px;
+        border: 4px solid var(--a-sand);
+    }
+
+    .btn-zoo {
+        background: var(--a-green);
+        color: #fff;
+        border: none;
+        border-radius: 28px;
+        padding: .6rem 1.2rem;
+    }
+
+        .btn-zoo:hover {
+            background: var(--a-forest);
+            color: #fff;
+        }
+
+    .card-title {
+        color: var(--a-forest);
+    }
+
+    strong {
+        color: var(--a-forest);
     }
 </style>
