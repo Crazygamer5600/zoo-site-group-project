@@ -1,0 +1,43 @@
+@model List<ProjectStudioApp.Models.CartItem>
+@{
+    ViewData["Title"] = "Cart";
+    var cartTotal = Model.Sum(c => c.ItemCost * c.Quantity);
+}
+<h2>Your Shopping Cart</h2>
+@if (!Model.Any())
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ItemName</td>
+                    <td>$@item.ItemCost</td>
+                    <td>@item.Quantity</td>
+                    <td>$@(item.ItemCost * item.Quantity)</td>
+                    <td>
+                        <form asp-action="RemoveFromCart" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@item.ItemId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h4>Total: $@cartTotal.ToString("N2")</h4>
+    <a asp-controller="Merchandise" asp-action="Purchase" class="btn btn-warning">Finalise Transaction</a>
+}

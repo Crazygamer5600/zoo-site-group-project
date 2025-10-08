@@ -3,9 +3,10 @@ using ProjectStudioApp.Datafile;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add session services
+builder.Services.AddSession();
 
 builder.Services.AddControllersWithViews();
-
 
 builder.Services.AddDbContext<ZooliranteDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ZooliranteDbContext")));
@@ -24,6 +25,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// Use session middleware
+app.UseSession();
 
 app.UseAuthorization();
 

@@ -153,5 +153,66 @@ namespace ProjectStudioApp.Controllers
         {
             return _context.Merchandises.Any(e => e.ItemId == id);
         }
+        [HttpPost]
+        public IActionResult AddToCart(int id)
+        {
+            var merchandise = _context.Merchandises.Find(id);
+            if (merchandise == null)
+                return NotFound();
+
+            var cart = CartSessionHelper.GetCart(HttpContext.Session);
+            var cartItem = cart.FirstOrDefault(c => c.ItemId == id);
+            if (cartItem != null)
+            {
+                cartItem.Quantity++;
+            }
+            else
+            {
+                cart.Add(new CartItem
+                {
+                    ItemId = merchandise.ItemId,
+                    ItemName = merchandise.ItemName,
+                    ItemCost = merchandise.ItemCost,
+                    ItemImage = merchandise.ItemImage,
+                    Quantity = 1
+                });
+            }
+            CartSessionHelper.SaveCart(HttpContext.Session, cart);
+            return Json(new { success = true });
+        }
+
+        [HttpPost]
+        public IActionResult RemoveFromCart(int id)
+        {
+            var cart = CartSessionHelper.GetCart(HttpContext.Session);
+            var item = cart.FirstOrDefault(c => c.ItemId == id);
+            if (item != null)
+            {
+                cart.Remove(item);
+                CartSessionHelper.SaveCart(HttpContext.Session, cart);
+            }
+            return RedirectToAction("Cart");
+        }
+
+        public IActionResult Cart()
+        {
+            var cart = CartSessionHelper.GetCart(HttpContext.Session);
+            return View(cart);
+        }
+
+        public IActionResult Purchase()
+        {
+            var cart = CartSessionHelper.GetCart(HttpContext.Session);
+            if (cart.Count == 0)
+                return RedirectToAction("Cart");
+            return View(cart);
+        }
+
+        [HttpPost]
+        public IActionResult FinalisePurchase()
+        {
+            CartSessionHelper.ClearCart(HttpContext.Session);
+            return View("PurchaseConfirmation");
+        }
     }
 }

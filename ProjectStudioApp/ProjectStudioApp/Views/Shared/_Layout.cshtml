@@ -79,7 +79,11 @@
     </style>
 </head>
 <body>
+	@using ProjectStudioApp.Models
     @{
+        var cart = CartSessionHelper.GetCart(Context.Session);
+        int cartCount = cart.Sum(c => c.Quantity);
+        decimal cartTotal = cart.Sum(c => c.ItemCost * c.Quantity);
         // Use current route to mark the right tab as active
         var ctrl = (string)ViewContext.RouteData.Values["controller"] ?? "";
         var act = (string)ViewContext.RouteData.Values["action"] ?? "";
@@ -127,7 +131,13 @@
                 <b class="card-header-tabs"> Welcome @LoggedInUser.CurrentAccount.FirstName</b>
             </li>
         }
+        <li class="figure-img">
+            <a asp-controller="Merchandise" asp-action="Cart" class="position-relative">
+                <img src="~/Images/cart.png" alt="Cart" style="width: 35px; vertical-align: middle;" />
+            </a>
+        </li>
     </ul>
+
 
     <!-- ===== Page Content ===== -->
     <div class="container mt-4">
@@ -138,7 +148,19 @@
 
     <!-- ===== Notifications ===== -->
     <div id="notificationContainer" class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 9999;"></div>
-
+    @if (cartCount > 0)
+    {
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 9999;">
+            <div class="card shadow" style="min-width: 250px;">
+                <div class="card-header bg-warning text-dark">Cart Summary</div>
+                <div class="card-body">
+                    <p>Items: <b>@cartCount</b></p>
+                    <p>Total: <b>$@cartTotal.ToString("N2")</b></p>
+                    <a asp-controller="Merchandise" asp-action="Cart" class="btn btn-success btn-sm">Purchase</a>
+                </div>
+            </div>
+        </div>
+    }
     <!-- ===== Footer (restored) ===== -->
     <footer class="bg-dark text-light mt-5 pt-5 pb-3">
         <div class="container">

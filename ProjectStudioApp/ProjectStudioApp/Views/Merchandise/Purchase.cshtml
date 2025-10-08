@@ -1,0 +1,33 @@
+@model List<ProjectStudioApp.Models.CartItem>
+@{
+    ViewData["Title"] = "Finalise Transaction";
+    var cartTotal = Model.Sum(c => c.ItemCost * c.Quantity);
+}
+<h2>Finalise Your Purchase</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ItemName</td>
+                <td>$@item.ItemCost</td>
+                <td>@item.Quantity</td>
+                <td>$@(item.ItemCost * item.Quantity)</td>
+                    
+            </tr>
+        }
+    </tbody>
+</table>
+<h4>Total: $@cartTotal.ToString("N2")</h4>
+<form asp-action="FinalisePurchase" method="post">
+    <button type="submit" class="btn btn-success">Confirm Purchase</button>
+</form>
