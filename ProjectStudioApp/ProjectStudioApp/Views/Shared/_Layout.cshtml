@@ -86,10 +86,9 @@
     }
     <!-- ===== Navbar ===== -->
     <ul class="nav nav-pills nav-fill gap-2 p-1 small rounded-5 shadow-sm" style="background-color:#D9B99B;">
-        <!-- Logo (kept as image link; not styled as pill) -->
+        <!-- Logo -->
         <li class="figure-img rounded-3">
-            <a class="@(ctrl == "Home" ? "active" : "")"
-               asp-controller="Home" asp-action="Index">
+            <a class="@(ctrl == "Home" ? "active" : "")" asp-controller="Home" asp-action="Index">
                 <img src="~/Images/image.png" alt="Figure" width="100">
             </a>
         </li>
@@ -98,31 +97,26 @@
             <a class="nav-link rounded-5 @(ctrl == "Animals" ? "active" : "")"
                asp-controller="Animals" asp-action="Index">Animal Showcase</a>
         </li>
-
         <li class="nav-item">
             <a class="nav-link rounded-5 @(ctrl == "Events" ? "active" : "")"
                asp-controller="Events" asp-action="Index">Upcoming Events</a>
         </li>
-
         <li class="nav-item">
             <a class="nav-link rounded-5 @(ctrl == "Bookings" ? "active" : "")"
                asp-controller="Bookings" asp-action="Index">Ticket Reservation</a>
         </li>
-
         <li class="nav-item">
             <a class="nav-link rounded-5 @(ctrl == "Merchandise" ? "active" : "")"
                asp-controller="Merchandise" asp-action="Index">Merchandise</a>
         </li>
-
         <li class="nav-item">
             <a class="nav-link rounded-5 @(ctrl == "Membership" ? "active" : "")"
                asp-controller="Membership" asp-action="Index">Membership</a>
         </li>
 
-        <!-- Account icon (kept as image link; not a pill) -->
+        <!-- Account icon -->
         <li class="figure-img">
-            <a class="@(ctrl == "Accounts" ? "active" : "")"
-               asp-controller="Accounts" asp-action="Index">
+            <a class="@(ctrl == "Accounts" ? "active" : "")" asp-controller="Accounts" asp-action="Index">
                 <img src="~/Images/account-icon.png" alt="Account" style="width:35px">
             </a>
         </li>
@@ -145,9 +139,61 @@
     <!-- ===== Notifications ===== -->
     <div id="notificationContainer" class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 9999;"></div>
 
-    <!-- ===== Footer ===== -->
+    <!-- ===== Footer (restored) ===== -->
     <footer class="bg-dark text-light mt-5 pt-5 pb-3">
-        @* ... your footer code stays as is ... *@
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 mb-4">
+                    <h4 class="fw-bold">Zoolirante</h4>
+                    <p>Experience Wildlife Wonder</p>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">About</h6>
+                    <ul class="list-unstyled">
+                        <li class="nav-item">
+                            <a class="link-light text-decoration-none" asp-controller="Home" asp-action="Conservation">Conservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link-light text-decoration-none" asp-controller="Home" asp-action="OurZoo">OurZoo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link-light text-decoration-none" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">Contact</h6>
+                    <ul class="list-unstyled">
+                        <li>Email: info@zoolirante.com</li>
+                        <li>Phone: +61 2 1234 5678</li>
+                        <li>Address: 123 Zoo Rd, Sydney</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4 text-center">
+                    <h6 class="fw-bold">Follow Us</h6>
+                    <a href="https://facebook.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" width="20" alt="Facebook">
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle me-2 p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" alt="Instagram">
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle me-2 p-2">
+                        <img src="https://images.freeimages.com/image/large-previews/f35/x-twitter-logo-on-black-circle-5694247.png?h=350" width="20" alt="Twitter / X">
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="btn btn-outline-danger btn-sm rounded-circle p-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="20" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+
+            <hr class="border-light">
+            <div class="text-center small">
+                © 2025 Zoolirante Zoo. All rights reserved.
+            </div>
+        </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
