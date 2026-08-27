@@ -5,9 +5,9 @@ Note: All repositories containing work from previous universities are clearly id
 All publicly available content has been published with written consent from the relevant course coordinator.
 
 I would like to Credit:
-Sebastian Okx
-Buwani Goonetilleke
-Shuxin Zheng
+Sebastian Okx,
+Buwani Goonetilleke,
+Shuxin Zheng, and
 Victor Idehen
 
 The code in this repository would not have come to fruition without my team members.
